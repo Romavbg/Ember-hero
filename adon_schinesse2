@@ -2310,7 +2310,7 @@
 		"t1_2_description""每1%力量增幅额外提供%value%%%生命增幅提高。"
 		"t1_3_description""使用力量结算的伤害系数提高%value%%%。"
 		"t1_4_description""每1点力量额外提供%value%点生命值上限提升。"
-		"t1_5_description""敌人攻击自己时，对敌人造成%value%%%力量的魔法伤害。"
+		"t1_5_description""近战攻击敌人或敌人攻击自己时，对敌人造成%value%%%力量的魔法伤害。"
 		"t2_1_description""增加%value%点基础敏捷。"
 		"t2_2_description""每1%敏捷增幅额外提供%value%%%攻击速度提升。"
 		"t2_3_description""击杀任何首领之后的%duration%秒内暴击率提升%value%%%。"
