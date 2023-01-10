@@ -2068,6 +2068,7 @@
 		
 
 		//schinese/systemStoreHouse.txt
+		"Warning"   "是否确认献祭该宠物？这将摧毁它并获得技能卷轴！"
 		"EquipmentIsInSlot" "装备中.."
 		"BtnHeadTabHero""英雄"
 		"BtnHeadTabEquipment""装备"
