@@ -1172,6 +1172,9 @@
 		"DOTA_Tooltip_modifier_profile_equipment_suit_ability_20_buff""花神祝福"
 		"DOTA_Tooltip_modifier_profile_equipment_suit_ability_20_buff_Description""魔法伤害提升15%%%"
 		
+		"DOTA_Tooltip_modifier_profile_equipment_suit_ability_31_buff""狂暴"
+		"DOTA_Tooltip_modifier_profile_equipment_suit_ability_31_buff_Description""暴击率增加"
+		
 		
 		
 		
@@ -1530,6 +1533,10 @@
 		"profile_equip_suit30_armor""万世荣耀战甲"
 		"profile_equip_suit30_glove""万世荣耀手套"
 		"profile_equip_suit30_shoes""万世荣耀战靴"
+		"profile_equip_suit31_helmet""夜影头盔"
+		"profile_equip_suit31_armor""夜影战甲"
+		"profile_equip_suit31_glove""夜影手套"
+		"profile_equip_suit31_shoes""夜影战靴"
 		"profile_equip_weapon_1""疾风长剑"
 		"profile_equip_weapon_2""雷霆之刃"
 		"profile_equip_weapon_3""毒蛇之刺"
@@ -1560,6 +1567,7 @@
 		"profile_equip_weapon_28""恶魔遗物"
 		"profile_equip_weapon_29""震荡之锤"
 		"profile_equip_weapon_30""群星之力"
+		"profile_equip_weapon_31""血腥魔剑"
 		"profile_equip_necklace_1""永恒守护项链"
 		"profile_equip_necklace_2""国王律法"
 		"profile_equip_necklace_3""王者之手"
@@ -1613,6 +1621,7 @@
 		"profile_suit28""死亡使者套装"
 		"profile_suit29""冰霜飓风套装"
 		"profile_suit30""万世荣耀套装"
+		"profile_suit31""夜影套装"
 		
 
 		//schinese/profile_gem.txt
@@ -1819,6 +1828,7 @@
 		"profile_suit28""死亡使者套装"
 		"profile_suit29""冰霜飓风套装"
 		"profile_suit30""万世荣耀套装"
+		"profile_suit31""夜影套装"
 		
 
 		//schinese/rank.txt
@@ -1955,7 +1965,7 @@
 		"PeakStats_4_description" "每提升1级，初始提供英雄#AttackPercentageBase#%%的攻击增幅和#ElementDamageBase#%%的元素增伤。"
 		"PeakStats_5" "勇气之煞"
 		"PeakStats_5_description" "每提升1级，初始提供英雄#CritBase#%%暴击率和#CritDamageBase#%%的暴击伤害。"
-		"PeakStats_6" "迅捷突袭"
+		"PeakStats_6" "亡灵统帅"
 		"PeakStats_6_description" "每提升1级，初始提供英雄#AttackSpeedBase#%%攻击速度和#ComboBase#%%的连攻概率。"
 		"PeakStats_7" "铜皮铁骨"
 		"PeakStats_7_description" "每提升1级，初始提供英雄#HealthPercentageBase#%%的生命增幅和#ArmorBase#的护甲。"
@@ -2068,7 +2078,7 @@
 		
 
 		//schinese/systemStoreHouse.txt
-		"Warning"   "是否确认献祭该宠物？这将摧毁它并获得技能卷轴！"
+		"Warning"   "是否<font color='#c3e88d'>[献祭]</font>该宠物？这将<font color='#fd5102'>[摧毁]</font>它!并获得该宠物的<font color='#c3e88d'>[技能卷轴]</font>！"
 		"EquipmentIsInSlot" "装备中.."
 		"BtnHeadTabHero""英雄"
 		"BtnHeadTabEquipment""装备"
@@ -2371,7 +2381,7 @@
 		"DOTA_Tooltip_ability_upgrade_arrowdash_arrowcount_1_description""跳跃攻击时攻击次数+{s:tar_val1}。"
 		"DOTA_Tooltip_ability_upgrade_arrowdash_crit_1_description""跳跃后，暴击率提升{s:tar_val1}%，持续%duration%秒。"
 		"DOTA_Tooltip_ability_upgrade_arrowdash_evade_1_description""跳跃后，闪避率提高{s:tar_val1}%，移动速度{s:tar_val2}%，持续%duration%秒。"
-		"DOTA_Tooltip_ability_upgrade_arrowdash_ground_1_description""在跳跃路径上布满荆棘，对上方敌人造成每秒{s:tar_val1}%智力的鲜血伤害，持续%duration%秒。"
+		"DOTA_Tooltip_ability_upgrade_arrowdash_ground_1_description""在跳跃路径上布满荆棘，对上方敌人造成每秒{s:tar_val1}%主属性的鲜血伤害，持续%duration%秒。"
 		"DOTA_Tooltip_ability_upgrade_arrowdash_poison_1_description""跳跃攻击时，造成额外{s:tar_val1}%敏捷的毒素伤害，并使敌人减速。"
 		"DOTA_Tooltip_ability_upgrade_arrowrain_break_1_description""箭雨的伤害有{s:tar_val1}%概率使目标破甲，护甲降低{s:tar_val2}，持续%duration%秒。"
 		"DOTA_Tooltip_ability_upgrade_arrowrain_cold_1_description""箭雨造成额外{s:tar_val1}%智力的冰霜伤害。"
