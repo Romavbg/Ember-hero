@@ -162,6 +162,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_28_description""主职业为[通灵]<br>召唤物攻击速度增加%attack_speed_pct%%%。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_29_description""主职业为[泰坦]<br>释放技能时，范围内敌人受到强力的震击，造成[力量x%damage_pct%%%]的伤害该效果每%cool_down%秒只能触发一次。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_30_description""主职业为[咒术]<br>释放技能时，对周围释放群星坠落造成[智力x%damage_pct%%%]的伤害，该效果每%cool_down%秒只能触发一次。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_31_description""触发暴击效果时，额外对目标触发一次鲜血震荡普攻造成[敏捷x%damage_pct%%%]的鲜血伤害。该效果每%cool_down%秒只能触发一次。"
 		
 
 		//schinese/abilitie_pro_equ_name.txt
@@ -195,6 +196,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_28""恶魔法阵"
 		"DOTA_Tooltip_ability_profile_equipment_ability_29""爆裂震击"
 		"DOTA_Tooltip_ability_profile_equipment_ability_30""群星坠落"
+		"DOTA_Tooltip_ability_profile_equipment_ability_31""血腥噩梦"
 		
 
 		//schinese/abilitie_pro_equ_suite_desc.txt
@@ -228,6 +230,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_28_description""主职业为[厄运]<br>连续攻击一个目标达到%attack_count%次后，造成一次鲜血爆炸，范围内的敌人受到[敏捷x%damage_pct%%%]的鲜血伤害。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_29_description""主职业为[游侠]<br>释放技能后，射出%count%根冰霜之箭，造成[敏捷x%damage_pct%%%]的伤害。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30_description""主职业为[泰坦]<br>非单人游戏时，每多一个玩家自身最大生命增加%health_add_pct%%%。"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31_description""使用技能后暴击率增加%prop_add_pct%%%,持续%duration%%%秒"
 		
 
 		//schinese/abilitie_pro_equ_suit_name.txt
@@ -261,6 +264,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_28""鲜血狂怒"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_29""急冻扫射"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30""巨人之魂"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31""狂暴"
 		
 
 		//schinese/achievement.txt
@@ -294,6 +298,11 @@
 		"passCommonLevel28""通关难度28"
 		"passCommonLevel29""通关难度29"
 		"passCommonLevel30""通关难度30"
+		"passCommonLevel31""通关难度31-狂暴之海"
+		"passCommonLevel32""通关难度32-毒液森林"
+		"passCommonLevel33""通关难度33-翡翠梦境"
+		"passCommonLevel34""通关难度34-幻影迷宫"
+		"passCommonLevel35""通关难度35-恶魔乐园"
 		"passEndless50""通过无尽深渊第50层"
 		"passEndless100""通过无尽深渊第100层"
 		"passEndless150""通过无尽深渊第150层"
@@ -361,6 +370,18 @@
 		"passCommonLevelSolo28""单人通关难度28"
 		"passCommonLevelSolo29""单人通关难度29"
 		"passCommonLevelSolo30""单人通关难度30"
+		"passCommonLevelSolo31""单人通关难度31"
+		"passCommonLevelSolo32""单人通关难度32"
+		"passCommonLevelSolo33""单人通关难度33"
+		"passCommonLevelSolo34""单人通关难度34"
+		"passCommonLevelSolo35""单人通关难度35"
+		"passCommonLevelSolo36""单人通关难度36"
+		"passCommonLevelSolo37""单人通关难度37"
+		"passCommonLevelSolo38""单人通关难度38"
+		"passCommonLevelSolo39""单人通关难度39"
+		"passCommonLevelSolo40""单人通关难度40"
+		"passCommonLevelSolo41""单人通关难度41"
+		"passCommonLevelSolo42""单人通关难度42"
 		"passCommonLevelTeam10""组队通关难度10"
 		"passCommonLevelTeam20""组队通关难度20"
 		"passCommonLevelTeam30""组队通关难度30"
@@ -556,7 +577,7 @@
 		"DOTA_Tooltip_ability_artifact_battle_critical_add_hp_description""攻击速度+%AttackSpeedBonusAdd%%%<br><br>当血量不高于%hpLowPercentage%%%时，每次攻击可以恢复%hpAddPercentage%%%血量。"
 		"DOTA_Tooltip_ability_artifact_battle_critical_convert_element_description""物理伤害-%phasicDamagePercentage%%%<br>魔法伤害+%elementDamagePercentage%%%<br><br>如果同时携带有[阳]，获得[阴阳光环]，光环内友军全伤害+%ringDamageAddPercentage%%%。"
 		"DOTA_Tooltip_ability_artifact_battle_critical_convert_physic_description""物理伤害+%phasicDamagePercentage%%%<br>魔法伤害-%elementDamagePercentage%%%<br><br>如果同时携带有[阴]，获得[阴阳光环]，光环内友军全伤害+%ringDamageAddPercentage%%%。"
-		"DOTA_Tooltip_ability_artifact_battle_skill_count_add_description""元素伤害+%ElementDamageBonusAdd%%%<br><br>可以获得[冰霜之球]，[火焰之球]，[闪电之球]，[鲜血之球]各1颗环绕在英雄身边，碰触到的敌人造成对应的攻击力%damagePercentage%%%属性伤害。"
+		"DOTA_Tooltip_ability_artifact_battle_skill_count_add_description""元素伤害+%ElementDamageBonusAdd%%%<br><br>可以获得[冰霜之球]，[火焰之球]，[闪电之球]各1颗环绕在英雄身边，碰触到的敌人造成对应的攻击力%damagePercentage%%%属性伤害。"
 		"DOTA_Tooltip_ability_artifact_element_fire_damage_extra_description""火焰伤害+%FireDamageBonusAdd%%%<br><br>造成[火焰伤害]时，有%property%%几率产生火焰爆炸，范围内敌人受到攻击力*%damagePercentage%%%[火焰伤害]。"
 		"DOTA_Tooltip_ability_artifact_element_fire_debuff_die_expode_description""火焰伤害+%FireDamageBonusAdd%%%<br><br>带有[燃烧]效果的敌人死亡时，有一定机率会产生[火焰爆炸]，范围内敌人受到攻击%damagePercentage%%%[火焰伤害]。"
 		"DOTA_Tooltip_ability_artifact_element_ice_damage_extra_description""冰霜伤害+%IceDamageBonusAdd%%%<br><br>造成[冰霜伤害]时，有几率额外附加[冰霜脆弱]。每一层冰霜脆弱影响的敌人受到的物理伤害提高1%%。"
@@ -723,7 +744,7 @@
 		
 		"PaymentTips""更多支付方式:"
 		"WaitQrCode""等待生成二维码"
-		"RefreshTip""如果没有刷出二维码,请关闭窗口后再尝试一次."
+		"RefreshTip""如果没有刷出二维码,请关闭窗口后再尝试一次"
 		
 
 		//schinese/componet.txt
@@ -1404,7 +1425,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_beastMaster_description""召唤<font color='#5bc0de'>[%count%]</font>个<font color='#5bc0de'>[力量X%strength_pct%%%]</font>的豪猪，豪猪每次攻击会给目标叠加一层<font color='#5bc0de'>[中毒]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_luna_description""攻击有几率释放出一个会额外弹射<font color='#5bc0de'>[%count%]</font>次的月刃。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_description""攻击时有<font color='#5bc0de'>[%chance%%%]</font>几率额外造成<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的<font color='#5bc0de'>鲜血</font>伤害，触发时对周围任意敌人发射飞镖，造成<font color='#5bc0de'>[敏捷X%drag_damage%%%]鲜血</font>伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_description""使用<font color='#5bc0de'>[Q技能]</font>后，在落点位置进行一次回音重踏，造成<font color='#5bc0de'>[力量X%strength_pct%%%]</font>的伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_description""使用<font color='#5bc0de'>[Q技能]</font>后，在落点位置进行一次回音重踏，造成<font color='#5bc0de'>[力量X%strength_pct%%%]</font>的<font color='#5bc0de'>鲜血</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_description""造成<font color='#5bc0de'>[鲜血]</font>伤害时，有<font color='#5bc0de'>[%chance%%%]</font>几率对造成伤害的目标追加一次虚空锁定并造成<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_clinkz_description""使用<font color='#5bc0de'>[Q技能]</font>后，在落点召唤<font color='#5bc0de'>[%count%]</font>个骷髅大军，攻击力为<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_description""标记一个敌人，每次攻击后，会对标记的敌人额外造成<font color='#5bc0de'>[%count%]</font>次，<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的伤害。"
@@ -1553,7 +1574,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality2_description""每次被重踏到的敌人，受到伤害额外增加<font color='#5bc0de'>[10%]，持续<font color='#5bc0de'>[5]秒，做多叠加<font color='#5bc0de'>10</font>层。"
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality3_description""重踏次数<font color='#5bc0de'>[+1]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality4_description""起始位置也会发生产生<font color='#5bc0de'>[重踏]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality5_description""每次重踏使下1次攻击伤害增加<font color='#5bc0de'>[%fist_damage_increase%%%]</font>，造成<font color='#5bc0de'>[力量x%fist_base_strength_damage%%%]</font>的伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality5_description""每次重踏使下1次攻击伤害增加<font color='#5bc0de'>[%fist_damage_increase%%%]</font>，造成<font color='#5bc0de'>[力量x%fist_base_strength_damage%%%]</font>的伤害。回音重踏伤害上升为<font color='#5bc0de'>[力量X%strength_pct%%%]</font>"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality2_description""虚空锁定每击杀一个敌人敏捷提升<font color='#5bc0de'>[%agility_pct_add%%%]</font>。最高叠加<font color='#5bc0de'>[10]</font>层。虚空锁定伤害增加至<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality3_description""每次使用技能后，虚空范围内的敌人受到<font color='#5bc0de'>[1]</font>次虚空锁定，此效果每秒只能触发一次。"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality4_description""虚空锁定触发时次数<font color='#5bc0de'>[+1]</font>"
@@ -1585,7 +1606,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality2_description""开启时候受到伤害降低<font color='#5bc0de'>[%damage_decrease_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality3_description""攻击<font color='#5bc0de'>[%power_shot_trigger_count%]</font>次数后，发射[强力击]造成<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality4_description""狂风之力增加<font color='#5bc0de'>[1]</font>个额外的攻击目标。"
-		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality5_description""对主要攻击目标施加的攻击继承<font color='#5bc0de'>[法球]</font>效果。"
+		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality5_description""对主要攻击目标施加的攻击继承<font color='#5bc0de'>[法球]</font>效果。自动射击攻击力提升为自身攻击的<font color='#5bc0de'>[%attact_pct%%%]</font>,强力击提升为<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality2_description""使用躲闪技能后会获得一个幻影。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality3_description""幻象死后有几率释放一个灵魂之矛，对敌人造成<font color='#5bc0de'>[敏捷x%damage_pct%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality4_description""幻象数量提升至<font color='#5bc0de'>[6]</font>个。"
@@ -1805,6 +1826,7 @@
 		"text_difficulty28""N28"
 		"text_difficulty29""N29"
 		"text_difficulty30""N30"
+		"text_difficulty31""N31狂暴之海"
 		
 		"text_difficulty_desc1""easy"
 		"text_difficulty_desc2""正常"
