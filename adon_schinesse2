@@ -1727,6 +1727,7 @@
 		"diamond_4""一堆深渊结晶"
 		"diamond_5""一桶深渊结晶"
 		"diamond_6""堆积如山的深渊结晶"
+		"strengthStone""强化石宝箱"
 		"DrawCardTicketHero""抽奖卷(英雄池)"
 		"DrawCardTicketCourier""抽奖卷(宠物池)"
 		"BattleItemDefenceScroll""守护卷轴"
@@ -1752,6 +1753,7 @@
 		"diamond_4GiftPack""一堆深渊结晶"
 		"diamond_5GiftPack""一桶深渊结晶"
 		"diamond_6GiftPack""堆积如山的深渊结晶"
+		"strengthStoneGiftPack""强化石兑换宝箱"
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
@@ -1795,6 +1797,7 @@
 		"diamond_5GiftPackTipsDetail""深渊结晶*3999"
 		"diamond_6GiftPackTipsDetail""深渊结晶*8100"
 		"HeroExpBookSingleTipsDetail""英雄经验书*1"
+		"strengthStoneGiftPackTipsDetail""150000古龙币兑换100000强化石"
 		
 
 		//schinese/profile_suit.txt
@@ -1878,6 +1881,7 @@
 		//schinese/systemCardDraw.txt
 		"BtnHeadTabCardDrawHero""先祖之轮"
 		"BtnHeadTabCardDrawCourier""秘使之森"
+		"BtnHeadTabCardDrawGem""宝石秘库"
 		"CardDraw" "探索"
 		"TenTimesCardDraw" "十次探索"
 		"NotEnoughTicket""没有足够的命运长卷"
@@ -1905,6 +1909,8 @@
 		"HeroPoolWarlockPreview""N:45%:战斗道具&nbsp;&nbsp;金色琉璃&nbsp;&nbsp;强化石<br><br><font color='#6375E6'>R</font>:35%:1级宝石&nbsp;&nbsp;<font color='#6375E6'>勇气之证</font><br><br><font color='#BA07F1'>SR</font>:15%:2级别宝石&nbsp;&nbsp;<font color='#BA07F1'>史诗之证</font><br><br><font color='#FFAE00'>SSR</font>:5%&nbsp;&nbsp;英雄:<font color='#FFAE00'>谜团&nbsp;&nbsp;莱恩&nbsp;&nbsp;瘟疫法师&nbsp;&nbsp;天涯墨客&nbsp;&nbsp;寒冰幽魂</font>"
 		
 		"HeroPoolAssassinPreview""N:45%:&nbsp;&nbsp;战斗道具&nbsp;&nbsp;金色琉璃&nbsp;&nbsp;强化石<br><br><font color='#6375E6'>R</font>:35%:&nbsp;&nbsp;1级宝石&nbsp;&nbsp;<font color='#6375E6'>勇气之证</font><br><br><font color='#BA07F1'>SR</font>:15%:&nbsp;&nbsp;2级别宝石&nbsp;&nbsp;<font color='#BA07F1'>史诗之证</font><br><br><font color='#FFAE00'>SSR</font>:5%:&nbsp;&nbsp;英雄:<font color='#FFAE00'>幻影刺客&nbsp;&nbsp;虚空假面&nbsp;&nbsp;幻影长矛手&nbsp;&nbsp;圣堂刺客&nbsp;&nbsp;火之精灵</font>"
+		
+		"GemPreview""N:45%:战斗道具&nbsp;&nbsp;金色琉璃&nbsp;&nbsp;强化石<br><br><font color='#6375E6'>R</font>:35%:1级宝石<br><br><font color='#BA07F1'>SR</font>:15%:2级宝石<br><br><font color='#FFAE00'>SSR</font>:5%:3级宝石"
 
 		//schinese/systemHandBook.txt
 		"success_claim_all_peak_point" "成功领取所有巅峰点数"
@@ -2072,7 +2078,7 @@
 		"BtnHeadTabProperty""道具"
 		"BtnHeadTabBless""祝福"
 		"NoArchiveVip" "需要荒野猎人凭证"
-		"FirstDoubleLabel""首次双倍"
+		"FirstDoubleLabel""充值双倍"
 		"DOTA_Tooltip_modifier_hero_plusmax"	"终身Plus加成"
 		"DOTA_Tooltip_modifier_hero_plusmax_description"	"智力+10%%,力量+10%%,敏捷+10%%"
 		
