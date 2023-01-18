@@ -736,6 +736,9 @@
 		"testboss_localization_test_2"    "这是一条测试本地化的本地化文本2"
 
 		//schinese/buypopup.txt
+		"PaypalRefreshTips" "如果使用Paypal支付，请在支付成功3分钟后点我手动更新数据。"
+		"RefreshTooFast" "你点的太快了"
+		"ClickRefresh" "点我刷新"
 		"BuyTitle""购买商品"
 		"PayNumber""支付金额:"
 		"BuyCount""购买数量:"
@@ -744,7 +747,7 @@
 		
 		"PaymentTips""更多支付方式:"
 		"WaitQrCode""等待生成二维码"
-		"RefreshTip""如果没有刷出二维码,请关闭窗口后再尝试一次"
+		"RefreshTip""如果没有刷出二维码，请关闭窗口后再尝试一次，如果使用Paypal支付，支付成功后请等待3分钟后手动刷新数据"
 		
 
 		//schinese/componet.txt
