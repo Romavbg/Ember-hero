@@ -163,6 +163,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_29_description""主职业为[泰坦]<br>释放技能时，范围内敌人受到强力的震击，造成[力量x%damage_pct%%%]的伤害该效果每%cool_down%秒只能触发一次。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_30_description""主职业为[咒术]<br>释放技能时，对周围释放群星坠落造成[智力x%damage_pct%%%]的伤害，该效果每%cool_down%秒只能触发一次。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_31_description""触发暴击效果时，额外对目标触发一次鲜血震荡普攻造成[敏捷x%damage_pct%%%]的鲜血伤害。该效果每%cool_down%秒只能触发一次。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_32_description""如果造成伤害的目标身上有[燃烧]效果,每次对其造成伤害,触发额外一次[攻击力x%damage_pct%%%]的火焰伤害。"
 		
 
 		//schinese/abilitie_pro_equ_name.txt
@@ -197,6 +198,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_29""爆裂震击"
 		"DOTA_Tooltip_ability_profile_equipment_ability_30""群星坠落"
 		"DOTA_Tooltip_ability_profile_equipment_ability_31""血腥噩梦"
+		"DOTA_Tooltip_ability_profile_equipment_ability_32""熔岩打击"
 		
 
 		//schinese/abilitie_pro_equ_suite_desc.txt
@@ -230,7 +232,8 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_28_description""主职业为[厄运]<br>连续攻击一个目标达到%attack_count%次后，造成一次鲜血爆炸，范围内的敌人受到[敏捷x%damage_pct%%%]的鲜血伤害。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_29_description""主职业为[游侠]<br>释放技能后，射出%count%根冰霜之箭，造成[敏捷x%damage_pct%%%]的伤害。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30_description""主职业为[泰坦]<br>非单人游戏时，每多一个玩家自身最大生命增加%health_add_pct%%%。"
-		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31_description""使用技能后暴击率增加%prop_add_pct%%%,持续%duration%%%秒"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31_description""使用技能后暴击率增加%prop_add_pct%%%,持续%duration%秒。"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_32_description""使用Q技能后获得刃甲,对攻击的敌人造成力量x%damage_pct%%%的伤害持续5秒，这个效果每10秒触发一次。"
 		
 
 		//schinese/abilitie_pro_equ_suit_name.txt
@@ -265,6 +268,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_29""急冻扫射"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30""巨人之魂"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31""狂暴"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_32""刃甲"
 		
 
 		//schinese/achievement.txt
@@ -416,7 +420,7 @@
 		"artifact_gold_double""炼金石"
 		"artifact_skill_d_start_thunder""雷击石"
 		"artifact_skill_d_end_thunder""雷击项链"
-		"artifact_skill_d_start_saw""鲜血宝石"
+		"artifact_skill_d_start_saw""血腥项链"
 		"artifact_skill_d_end_saw""鲜血项链"
 		"artifact_gold_damage""黄金大锤"
 		"artifact_gold_attack_collect""小钩子"
@@ -492,7 +496,7 @@
 		"DOTA_Tooltip_ability_artifact_gold_double""炼金石"
 		"DOTA_Tooltip_ability_artifact_skill_d_start_thunder""雷击石"
 		"DOTA_Tooltip_ability_artifact_skill_d_end_thunder""雷击项链"
-		"DOTA_Tooltip_ability_artifact_skill_d_start_saw""鲜血宝石"
+		"DOTA_Tooltip_ability_artifact_skill_d_start_saw""血腥项链"
 		"DOTA_Tooltip_ability_artifact_skill_d_end_saw""鲜血项链"
 		"DOTA_Tooltip_ability_artifact_gold_damage""黄金大锤"
 		"DOTA_Tooltip_ability_artifact_gold_attack_collect""小钩子"
@@ -1393,6 +1397,9 @@
 		"dota_tooltip_modifier_overcharge_buff" "元素过载"
 		"dota_tooltip_modifier_overcharge_buff_description" "处于过载的状态之下。"
 		
+		"dota_tooltip_modifier_poisonarrow_debuff" "剧毒"
+		"dota_tooltip_modifier_poisonarrow_debuff_description" "处于剧毒状态下，急速流失生命。"
+		
 
 		//schinese/herobaseability.txt
 		"DOTA_Tooltip_ability_hero_base_ability_zuus""雷电掌控"
@@ -1434,11 +1441,11 @@
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_description""标记一个敌人，每次攻击后，会对标记的敌人额外造成<font color='#5bc0de'>[%count%]</font>次，<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_undying_description""汲取敌人的力量，每个敌人汲取<font color='#5bc0de'>[力量+%strength_pct_add%%%]</font>，对头目汲取更多。攻击有几率造成<font color='#5bc0de'>[力量X%strength_pct%%%]</font>的范围伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_omniKnight_description""对目标和自己施加祝福受到攻击有几率对敌人进行惩戒。惩戒伤害为全能骑士<font color='#5bc0de'>[力量X%strength_pct%%%]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_axe_description""受到攻击时，有<font color='#5bc0de'>[%chance%%%]</font>的几率产生反击风暴，造成<font color='#5bc0de'>[力量X%strength_pct%%%]</font>的<font color='#5bc0de'>[火焰]</font>伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_axe_description""受到攻击时，有<font color='#5bc0de'>[%chance%%%]</font>的几率产生反击风暴，造成<font color='#5bc0de'>[力量X%strength_pct%%%]+[攻击力x100%%]</font>的<font color='#5bc0de'>[火焰]</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_description""攻击时附带<font color='#5bc0de'>[冰霜]</font>伤害，如果敌人带有<font color='#5bc0de'>[寒冷]</font>效果，有一定几率爆炸。对周围<font color='#5bc0de'>[%count%]</font>个敌人造成<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_description""<font color='#5bc0de'>[移动速度+%move_spd_pct%%%]</font>，自动对周围的单位进行高速攻击，攻击力为自身攻击的<font color='#5bc0de'>[%attact_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_description""攻击时有几率产生短暂的幻象，幻象攻击力为自身<font color='#5bc0de'>[攻击力X%attact_pct%%%]</font>，最多存在<font color='#5bc0de'>%max_count%</font>个幻象。"
-		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_description""使用<font color='#5bc0de'>[Q技能]</font>后，会在落点位置落下一个陷阱，踩中陷阱的敌人受到<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_description""使用<font color='#5bc0de'>[Q技能]</font>后，会在落点位置落下一个陷阱，踩中陷阱的敌人受到<font color='#5bc0de'>[敏捷X%agility_pct%%%]</font>的<font color='#5bc0de'>[冰霜伤害]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_description""目标位置产生一阵持续性的冰风暴，每秒造成<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>的<font color='#5bc0de'>[冰霜]</font>伤害，持续<font color='#5bc0de'>[%duration%]</font>秒。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_description""对目标以及目标周围累计<font color='#5bc0de'>[%count%]</font>个敌人造成<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_necrophos_description""结界内敌方单位每秒受到<font color='#5bc0de'>[智力X%intellect_pct2%%%]</font>的<font color='#5bc0de'>[毒液]</font>伤害。"
@@ -1569,11 +1576,11 @@
 		"DOTA_Tooltip_ability_hero_base_ability_luna_quality2_description""对击中的目标有<font color='#5bc0de'>[%chance%%%]</font>概率释放月光造成<font color='#5bc0de'>[敏捷x%lucent_agility_pct%%%]</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_luna_quality3_description""释放弹射月刃数目+<font color='#5bc0de'>[1]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_luna_quality4_description""每次释放弹射月刃对周围敌人造成一次金色月光打击，造成造成<font color='#5bc0de'>[敏捷x%gold_light_agility_pct%%%]</font>伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_luna_quality5_description""所有月光打击数目+<font color='#5bc0de'>[1]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_luna_quality5_description""所有月光打击数目+<font color='#5bc0de'>[1]</font>,伤害转为<font color='#5bc0de'>[鲜血伤害]</font>."
 		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_quality2_description""致命一击伤害增加至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>，飞镖数量增加至<font color='#5bc0de'>[%count%]</font>个。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_quality3_description""致命一击伤害增加至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>，<font color='#5bc0de'>[暴击]</font>时会发射<font color='#5bc0de'>[%count%]</font>个飞镖。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_quality4_description""致命一击触发时额外增加一次<font color='#5bc0de'>[扇形溅射]</font>，造成致命一击伤害的<font color='#5bc0de'>[%damage_pct%%%]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_quality5_description""飞镖会标记目标，当攻击带有标记的目标，会瞬间移动到身边。并且触发<font color='#5bc0de'>致命一击</font>。致命一击伤害增加至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>"
+		"DOTA_Tooltip_ability_hero_base_ability_phantomAssassin_quality5_description""飞镖会标记目标，当攻击带有标记的目标，会瞬间移动到身边。并且触发<font color='#5bc0de'>致命一击</font>。致命一击伤害增加至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>."
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality2_description""每次被重踏到的敌人，受到伤害额外增加<font color='#5bc0de'>[10%]，持续<font color='#5bc0de'>[5]秒，做多叠加<font color='#5bc0de'>10</font>层。"
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality3_description""重踏次数<font color='#5bc0de'>[+1]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_elderTitan_quality4_description""起始位置也会发生产生<font color='#5bc0de'>[重踏]</font>。"
@@ -1599,17 +1606,17 @@
 		"DOTA_Tooltip_ability_hero_base_ability_omniKnight_quality4_description""对友军释放的祝福，同样也带有神圣风暴效果。"
 		"DOTA_Tooltip_ability_hero_base_ability_omniKnight_quality5_description""自己释放技能时，同样会引发神圣风暴。"
 		"DOTA_Tooltip_ability_hero_base_ability_axe_quality2_description""每次反击时获得护甲值提升<font color='#5bc0de'>[%armor_add%]</font>，最高<font color='#5bc0de'>[20]</font>层，持续<font color='#5bc0de'>[8]</font>秒。"
-		"DOTA_Tooltip_ability_hero_base_ability_axe_quality3_description""反击时释放冲击波造成<font color='#5bc0de'>[力量x%wave_damage%%%]</font>的火焰伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_axe_quality3_description""反击时释放冲击波造成<font color='#5bc0de'>[力量x%wave_damage%%%]+[攻击力x100%%]</font>的火焰伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_axe_quality4_description""反击概率增加至<font color='#5bc0de'>[%chance%%%]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_axe_quality5_description""攻击[50%%%]概率可以触发斩杀造成<font color='#5bc0de'>[力量x%blade_damage%%%]</font>的伤害，并释放一次<font color='#5bc0de'>[冲击波]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_axe_quality5_description""攻击[50%%%]概率可以触发斩杀造成<font color='#5bc0de'>[力量x%blade_damage%%%]+[攻击力x100%%]</font>的伤害，并释放一次<font color='#5bc0de'>[冲击波]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality2_description""每次释放技能额外释放1轮散射，散射造成<font color='#5bc0de'>[敏捷x%scatter_damage%%%]</font>的冰霜伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality3_description""散射攻击到敌人时增加一层<font color='#5bc0de'>[寒冷]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality4_description""散射轮次<font color='#5bc0de'>[+1]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality5_description""如果寒冰爆炸时目标周围没有其他敌人，则所有即将产生的伤害将会作用于同一目标。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality3_description""散射攻击到敌人时增加一层<font color='#5bc0de'>[寒冷]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality4_description""散射轮次<font color='#5bc0de'>[+1]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality5_description""寒冰爆炸伤害系数提升至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>，如果寒冰爆炸时目标周围没有其他敌人，则所有即将产生的伤害将会作用于同一目标，并且每次冰爆伤害翻倍。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality2_description""开启时候受到伤害降低<font color='#5bc0de'>[%damage_decrease_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality3_description""攻击<font color='#5bc0de'>[%power_shot_trigger_count%]</font>次数后，发射[强力击]造成<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality4_description""狂风之力增加<font color='#5bc0de'>[1]</font>个额外的攻击目标。"
-		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality5_description""对主要攻击目标施加的攻击继承<font color='#5bc0de'>[法球]</font>效果。自动射击攻击力提升为自身攻击的<font color='#5bc0de'>[%attact_pct%%%]</font>,强力击提升为<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality5_description""狂风之力转为<font color='#5bc0de'>[闪电魔法]</font>伤害,攻击力为自身攻击的<font color='#5bc0de'>[%attact_pct%%%]</font>,强力击提升为<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality2_description""使用躲闪技能后会获得一个幻影。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality3_description""幻象死后有几率释放一个灵魂之矛，对敌人造成<font color='#5bc0de'>[敏捷x%damage_pct%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_phantomLancer_quality4_description""幻象数量提升至<font color='#5bc0de'>[6]</font>个。"
@@ -1617,11 +1624,11 @@
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality2_description""<font color='#5bc0de'>[初始位置]</font>也会出现一个灵能陷阱。"
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality3_description""灵能陷阱爆炸后会对周围施加<font color='#5bc0de'>[%explode_attack_count%]</font>次灵能攻击，灵能攻击被视为普攻。"
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality4_description""灵能陷阱爆炸次数<font color='#5bc0de'>[+1]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality5_description""灵能陷阱爆炸后灵能攻击的次数增加至<font color='#5bc0de'>[%explode_attack_count%]</font>次。"
+		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality5_description""灵能陷阱爆炸后灵能攻击的次数增加至<font color='#5bc0de'>[%explode_attack_count%]</font>次。伤害转化为<font color='#5bc0de'>[冰霜伤害]</font>"
 		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality2_description""冰风暴结束时，释放1次冰霜新星，造成<font color='#5bc0de'>[智力x%nova_pct%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality3_description""释放任意技能时，会对周围目标释放<font color='#5bc0de'>[1]</font>次冰霜新星，最多每2秒触发一次。"
 		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality4_description""冰风暴持续施加增加至<font color='#5bc0de'>[%duration%]</font>秒。"
-		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality5_description""释放冰风暴时，自己身旁也会出现暴风雪。"
+		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality5_description""释放冰风暴时，自己身旁也会出现暴风雪。冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality2_description""死亡一指击杀目标时，技能伤害永久提升<font color='#5bc0de'>[%damage_add_per_kill_pct%%%]</font>，最多获得[%max_count%]层。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality3_description""每次释放技能时都有几率释放<font color='#5bc0de'>[1]</font>次死亡一指。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality4_description""死亡一指目标数量提升至<font color='#5bc0de'>[%count%]</font>个。"
@@ -1830,6 +1837,7 @@
 		"text_difficulty29""N29"
 		"text_difficulty30""N30"
 		"text_difficulty31""N31狂暴之海"
+		"text_difficulty32""N32剧毒森林"
 		
 		"text_difficulty_desc1""easy"
 		"text_difficulty_desc2""正常"
@@ -2041,8 +2049,18 @@
 		"error_cheat_mode""请勿使用作弊模式"
 		"UI_PickAll""全选"
 		
+		"BtnOption" "辅助"
 		"close_recorder" "关闭伤害统计"
 		"open_recorder" "打开伤害统计"
+		
+		"Toggle_Recorder" "开关伤害统计"
+		"toggle_popupnumber" "开关伤害数字"
+		"open_popupnumber" "打开伤害数字"
+		"close_popupnumber" "关闭伤害数字"
+		
+		"toggle_autoattack" "开关自动攻击"
+		"open_autoattack" "打开自动攻击"
+		"close_autoattack" "关闭自动攻击"
 
 		//schinese/items.txt
 		"DOTA_Tooltip_ability_item_gold_bag_1""一袋金币"
