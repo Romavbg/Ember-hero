@@ -256,10 +256,10 @@
 		"DOTA_Tooltip_ability_item_element_flag_2_description""<h1>被动：元素脆弱</h1>周围敌人受到的元素伤害提升%element_debuff%%%。"
 		"DOTA_Tooltip_ability_item_element_flag_3_description""<h1>被动：元素脆弱</h1>周围敌人受到的元素伤害提升%element_debuff%%%。"
 		"DOTA_Tooltip_ability_item_element_flag_4_description""<h1>被动：元素脆弱</h1>周围敌人受到的元素伤害提升%element_debuff%%%。"
-		"DOTA_Tooltip_ability_item_demonbook_1_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害和%attack_pct%%%攻击力。最大叠加%max_count%层。"
-		"DOTA_Tooltip_ability_item_demonbook_2_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害和%attack_pct%%%攻击力。最大叠加%max_count%层。"
-		"DOTA_Tooltip_ability_item_demonbook_3_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害和%attack_pct%%%攻击力。最大叠加%max_count%层。"
-		"DOTA_Tooltip_ability_item_demonbook_4_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害和%attack_pct%%%攻击力。最大叠加%max_count%层。"
+		"DOTA_Tooltip_ability_item_demonbook_1_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害，最大叠加%max_count%层。"
+		"DOTA_Tooltip_ability_item_demonbook_2_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害，最大叠加%max_count%层。"
+		"DOTA_Tooltip_ability_item_demonbook_3_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害，最大叠加%max_count%层。"
+		"DOTA_Tooltip_ability_item_demonbook_4_description""<h1>被动：魔主强化</h1>每一个属于自己的召唤物提升携带者%pct%%%的最终伤害，最大叠加%max_count%层。"
 		"DOTA_Tooltip_ability_item_falconblade_1_description""<h1>被动：鲜血斩</h1>释放技能后的下%count%次普攻造成%agi_pct%%%敏捷的鲜血伤害，并且在目标身上叠加最多%max_stack%层【撕裂】，每1层【撕裂】使其受到的鲜血伤害提高%increase_pct%%%。"
 		"DOTA_Tooltip_ability_item_falconblade_2_description""<h1>被动：鲜血斩</h1>释放技能后的下%count%次普攻造成%agi_pct%%%的鲜血伤害，并且在目标身上叠加最多%max_stack%层【撕裂】，每1层【撕裂】使其受到的鲜血伤害提高%increase_pct%%%。"
 		"DOTA_Tooltip_ability_item_falconblade_3_description""<h1>被动：鲜血斩</h1>释放技能后的下%count%次普攻造成%agi_pct%%%的鲜血伤害，并且在目标身上叠加最多%max_stack%层【撕裂】，每1层【撕裂】使其受到的鲜血伤害提高%increase_pct%%%。"
@@ -1537,6 +1537,10 @@
 		"profile_equip_suit31_armor""夜影战甲"
 		"profile_equip_suit31_glove""夜影手套"
 		"profile_equip_suit31_shoes""夜影战靴"
+		"profile_equip_suit32_helmet""巨力战神"
+		"profile_equip_suit32_armor""巨力战神"
+		"profile_equip_suit32_glove""巨力战神"
+		"profile_equip_suit32_shoes""巨力战神"
 		"profile_equip_weapon_1""疾风长剑"
 		"profile_equip_weapon_2""雷霆之刃"
 		"profile_equip_weapon_3""毒蛇之刺"
@@ -1568,6 +1572,7 @@
 		"profile_equip_weapon_29""震荡之锤"
 		"profile_equip_weapon_30""群星之力"
 		"profile_equip_weapon_31""血腥魔剑"
+		"profile_equip_weapon_32""熔岩世界"
 		"profile_equip_necklace_1""永恒守护项链"
 		"profile_equip_necklace_2""国王律法"
 		"profile_equip_necklace_3""王者之手"
@@ -1622,6 +1627,7 @@
 		"profile_suit29""冰霜飓风套装"
 		"profile_suit30""万世荣耀套装"
 		"profile_suit31""夜影套装"
+		"profile_suit32""巨力战神"
 		
 
 		//schinese/profile_gem.txt
@@ -1754,6 +1760,10 @@
 		"diamond_5GiftPack""一桶深渊结晶"
 		"diamond_6GiftPack""堆积如山的深渊结晶"
 		"strengthStoneGiftPack""强化石兑换宝箱"
+		"happyNewYear1GiftPack""新年限定补给礼包"
+		"happyNewYear2GiftPack""新年限定强化礼包"
+		"happyNewYear3GiftPack""新年限定宝石礼包"
+		"happyNewYear4GiftPack""新年限定超级大礼包"
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
@@ -1798,6 +1808,10 @@
 		"diamond_6GiftPackTipsDetail""深渊结晶*8100"
 		"HeroExpBookSingleTipsDetail""英雄经验书*1"
 		"strengthStoneGiftPackTipsDetail""150000古龙币兑换100000强化石"
+		"happyNewYear1GiftPackTipsDetail""新年限定礼包,限购1次内含:<br>100000强化石<br>10个命运长卷"
+		"happyNewYear2GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>15个命运长卷"
+		"happyNewYear3GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>20个命运长卷<br>2级宝石,每种各一颗"
+		"happyNewYear4GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>1000000强化石<br>500000金币<br>100永恒水晶<br>30个命运长卷<br>3级宝石,每种各一颗"
 		
 
 		//schinese/profile_suit.txt
@@ -2079,6 +2093,7 @@
 		"BtnHeadTabBless""祝福"
 		"NoArchiveVip" "需要荒野猎人凭证"
 		"FirstDoubleLabel""充值双倍"
+		"LimitLabel""限购:"
 		"DOTA_Tooltip_modifier_hero_plusmax"	"终身Plus加成"
 		"DOTA_Tooltip_modifier_hero_plusmax_description"	"智力+10%%,力量+10%%,敏捷+10%%"
 		
@@ -2263,7 +2278,7 @@
 		
 		"LableReadyUpgrade""可进阶"
 		
-		"EquipmentIsLocked" "无法分解锁定的装备"
+		"EquipmentIsLocked" "装备已锁定"
 		
 		"RightMenu_Unlock" "解锁"
 		"RightMenu_Lock" "锁定"
