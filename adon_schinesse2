@@ -1764,6 +1764,7 @@
 		"happyNewYear2GiftPack""新年限定强化礼包"
 		"happyNewYear3GiftPack""新年限定宝石礼包"
 		"happyNewYear4GiftPack""新年限定超级大礼包"
+		"breakStoneGiftPack""巨龙之石礼包"
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
@@ -1771,7 +1772,7 @@
 		"dailyArchiveVipGiftPackTipsDetail""可获得[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1"
 		"plusMonthTipsDetail""以下权益将生效<font color='#fde248'>30</font>天<br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+100</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数"
 		"plusMaxTipsDetail""<font color='#fde248'>以下权益将将会永久生效</font><br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+200</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数<br><br><font color='#fde248'>额外增加以下权益</font><br>5.使用的英雄,力量,敏捷,智力<font color='#fde248'>+10%</font><br>6.结算时,英雄熟练度<font color='#fde248'>+10%</font><br>7.购买后立即获得<font color='#fde248'>SSR宠物</font><br><br>魔法飞毯小恶魔<br>(技能:本局游戏只有一个玩家时,携带者最终伤害增加10%)<br>(这个宠物不会解锁对应成就)"
-		"archiveVipTipsDetail""<font color='#fde248'>以下权益将会永久生效</font><br><br>1.结算时地图经验<font color='#fde248'>+20%</font><br><br>2.结算时古龙币<font color='#fde248'>+20%</font><br><br>3.结算时存档装备数<font color='#fde248'>x2</font><br><br>4.可领取<font color='#fde248'>荒野猎人每日礼包</font><br>(包含:[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1)<br><br>5.分解装备时,强化石<font color='#fde248'>+20%</font><br><br>6.传承装备方案页签<font color='#fde248'>+3</font>"
+		"archiveVipTipsDetail""<font color='#fde248'>以下权益将会永久生效</font><br><br>1.结算时地图经验<font color='#fde248'>+20%</font><br><br>2.结算时古龙币<font color='#fde248'>+20%</font><br><br>3.结算时存档装备数<font color='#fde248'>x2</font><br><br>4.可领取<font color='#fde248'>荒野猎人每日礼包</font><br>(包含:[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1)<br><br>5.分解装备时,强化石<font color='#fde248'>+20%</font><br><br>6.传承装备方案页签<font color='#fde248'>+3</font><br><br>7.N32层后额外增加掉落宝石几率"
 		"advanceBpTipsDetail""购买可以解锁高级通行证"
 		"heroExpBookGiftPackTipsDetail""可获得英雄经验书*5,使用直接解锁为常用英雄"
 		"enhanceCrystalGiftPackTipsDetail""4级强化结晶*1,4级金色琉璃*1"
@@ -1812,6 +1813,7 @@
 		"happyNewYear2GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>15个命运长卷"
 		"happyNewYear3GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>20个命运长卷<br>2级宝石,每种各一颗"
 		"happyNewYear4GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>1000000强化石<br>500000金币<br>100永恒水晶<br>30个命运长卷<br>3级宝石,每种各一颗"
+		"breakStoneGiftPackTipsDetail""包含5个巨龙之石,用于装备突破当前装等"
 		
 
 		//schinese/profile_suit.txt
@@ -2085,6 +2087,10 @@
 		
 		"CourierSkillScrollCommonUse""用途:宠物领悟技能"
 		"GemCommonUse""用途:嵌入装备可以获得属性<br>(三个同样的宝石可合成更高一级宝石)"
+		
+		"breakStone""巨龙之石"
+		"breakStoneTipsDetail""用于装备突破当前装等,突破可能存在失败概率.突破成功后可以增加1000装等.累计装等不大于12000<br><br>N32以上有小概率掉落,商店资源页内也有出售"
+		
 
 		//schinese/systemShoppingMall.txt
 		"BtnHeadTabRecommend""推荐"
@@ -2195,7 +2201,9 @@
 		"EquipmentTabLabelDecompose""分解"
 		"EquipmentTabLabelGemSynthesis""镶嵌"
 		"EquipmentTabLabelRebuild""重铸"
+		"EquipmentTabLabelBreakUp""突破"
 		"Rebuild""重铸"
+		"BreakUp""突破"
 		
 		"EquipmentStrengthTabTips""下一级消耗:"
 		
@@ -2206,6 +2214,9 @@
 		
 		"EquipmentRebuildToolTips1" "重铸后起始装等:"
 		"EquipmentRebuildToolTips2" "Tips:<br>*重铸装等为已通关最高难度装等<br>*装备品质将会重新随机<br>*属性将会重新随机<br>*宝石自动卸下<br>*强化等级归0,按照分解返还强化石<br>*团队装重铸后会变为单人装"
+		
+		"EquipmentBreakUpToolTips1" "本次突破后装等:"
+		"EquipmentBreakUpToolTips2" "Tips:<br>*只有+25的装备且装等高于8400才可进行突破<br>*突破后副属性和主属性都会上升<br>*突破后的单人最高装等12000,团队最高装等12500<br>*突破有一定的失败几率<br>*N31以上每日首次通过可以获得巨龙之石1个"
 		
 		"EquipmentRebuildToolTipsCost" "消耗"
 		"NeedMoreStoneRebuild""强化石不足"
@@ -2227,7 +2238,7 @@
 		"Success_Gem_Unload""宝石卸下成功"
 		"Success_Gem_load""宝石镶嵌成功"
 		
-		"Failed_TargeGemtNotExist""宝石已经卸载,请勿点击过快"
+		"Failed_TargeGemtNotExist""目标宝石不存在,请勿点击过快"
 		
 		"EquipmentNotEnoughSlot" "插槽不足"
 		"EquipmentNeedChooseGem" "请选择一个宝石"
@@ -2241,7 +2252,7 @@
 		"Success_Equipment_Decompose""分解成功"
 		
 		"EquipmentStrengthStoneTips""拥有:&nbsp;&nbsp;"
-		"MaxLevel""已满级"
+		"MaxLevel" "已满级"
 		
 		"GoldNotEnough""金币不足"
 		"StrengthStoneNotEnough""强化石不足"
@@ -2250,6 +2261,8 @@
 		"Success_Equipment_Strength""强化成功"
 		"Success_Equipment_Rebuild""重铸成功"
 		
+		"Success_Equipment_BreakUp""突破成功"
+		"Faile_Equipment_BreakUp""突破失败"
 		
 		"TeamEquipment""(团队)"
 		
@@ -2270,6 +2283,7 @@
 		"SystemGemCombin" "合成"
 		"SystemGemCombinOneKey""一键合成"
 		"SytemImmoralStoneExchange""兑换"
+		"SystemGemDecompose""分解"
 		
 		"Success_Use_Item""成功使用物品"
 		"Failed_ItemNotEnough""物品数量不足"
@@ -2278,16 +2292,16 @@
 		
 		"LableReadyUpgrade""可进阶"
 		
+		"EquipmentBreakNotEnough""巨龙之石数量不足"
 		"EquipmentIsLocked" "装备已锁定"
-		
+		"EquipmentBreakNotEnoughLevel" "强化等级需要+25才可进行突破"
+		"EquipmentBreakNotEnoughEvLevel" "装等至少要达到8400"
+		"EquipmentBreakMax""已达到最高装等"
 		"RightMenu_Unlock" "解锁"
 		"RightMenu_Lock" "锁定"
 		"RightMenu_Decompose" "分解"
 		
-		"Decompose" "批量分解"
 		
-		"StrengthConfirmBtn""强化"
-		"StrengthOneKeyConfirmBtn""一键强化"
 
 		//schinese/talent.txt
 		"t1_1""泰坦之力"
