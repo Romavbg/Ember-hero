@@ -1768,7 +1768,7 @@
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
-		"dailyFreeGiftPackTipsDetail""可获得[强化石]*100, [古龙币]*500"
+		"dailyFreeGiftPackTipsDetail""可获得[强化石]*1000, [古龙币]*500,[巨龙之石]*1"
 		"dailyArchiveVipGiftPackTipsDetail""可获得[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1"
 		"plusMonthTipsDetail""以下权益将生效<font color='#fde248'>30</font>天<br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+100</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数"
 		"plusMaxTipsDetail""<font color='#fde248'>以下权益将将会永久生效</font><br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+200</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数<br><br><font color='#fde248'>额外增加以下权益</font><br>5.使用的英雄,力量,敏捷,智力<font color='#fde248'>+10%</font><br>6.结算时,英雄熟练度<font color='#fde248'>+10%</font><br>7.购买后立即获得<font color='#fde248'>SSR宠物</font><br><br>魔法飞毯小恶魔<br>(技能:本局游戏只有一个玩家时,携带者最终伤害增加10%)<br>(这个宠物不会解锁对应成就)"
@@ -1876,6 +1876,8 @@
 		"Claimed""已领取"
 		"NotRewardGet""没有奖励可以领取"
 		"MaxBpLevel""已经到达战令最大等级"
+		"UpMaxExp""溢出经验将在赛季更新后转化战令币:"
+		"Count""枚"
 		
 		"LableTaskDaily""每日任务"
 		"LableTaskWeekly""赛季任务"
@@ -2089,7 +2091,7 @@
 		"GemCommonUse""用途:嵌入装备可以获得属性<br>(三个同样的宝石可合成更高一级宝石)"
 		
 		"breakStone""巨龙之石"
-		"breakStoneTipsDetail""用于装备突破当前装等,突破可能存在失败概率.突破成功后可以增加1000装等.累计装等不大于12000<br><br>N32以上有小概率掉落,商店资源页内也有出售"
+		"breakStoneTipsDetail""用于装备突破当前装等,突破可能存在失败概率.突破成功后可以增加500装等<br><br>N31以上有小概率掉落,商店资源页内也有出售"
 		
 
 		//schinese/systemShoppingMall.txt
@@ -2216,7 +2218,7 @@
 		"EquipmentRebuildToolTips2" "Tips:<br>*重铸装等为已通关最高难度装等<br>*装备品质将会重新随机<br>*属性将会重新随机<br>*宝石自动卸下<br>*强化等级归0,按照分解返还强化石<br>*团队装重铸后会变为单人装"
 		
 		"EquipmentBreakUpToolTips1" "本次突破后装等:"
-		"EquipmentBreakUpToolTips2" "Tips:<br>*只有+25的装备且装等高于8400才可进行突破<br>*突破后副属性和主属性都会上升<br>*突破后的单人最高装等12000,团队最高装等12500<br>*突破有一定的失败几率<br>*N31以上每日首次通过可以获得巨龙之石1个"
+		"EquipmentBreakUpToolTips2" "Tips:<br>*只有+25的装备且装等高于8400才可进行突破<br>*突破后副属性和主属性都会上升,随机属性选择1条增加<br>*突破后的单人最高装等12000,团队最高装等14000<br>*突破有一定的失败几率<br>*N31以上每日首次通过可以获得巨龙之石1个"
 		
 		"EquipmentRebuildToolTipsCost" "消耗"
 		"NeedMoreStoneRebuild""强化石不足"
@@ -2252,7 +2254,7 @@
 		"Success_Equipment_Decompose""分解成功"
 		
 		"EquipmentStrengthStoneTips""拥有:&nbsp;&nbsp;"
-		"MaxLevel" "已满级"
+		"MaxLevel""已满级"
 		
 		"GoldNotEnough""金币不足"
 		"StrengthStoneNotEnough""强化石不足"
