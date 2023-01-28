@@ -2171,7 +2171,6 @@
 		"ring""戒指"
 		"all""全部"
 		
-		
 		"EquipmentLevel""装等"
 		"EquipmentSlot""部位:"
 		
@@ -2303,6 +2302,9 @@
 		"RightMenu_Lock" "锁定"
 		"RightMenu_Decompose" "分解"
 		
+		"Decompose" "批量分解"
+		"StrengthConfirmBtn""强化"
+		"StrengthOneKeyConfirmBtn""一键强化"
 		
 
 		//schinese/talent.txt
