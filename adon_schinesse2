@@ -1768,7 +1768,7 @@
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
-		"dailyFreeGiftPackTipsDetail""可获得[强化石]*100, [古龙币]*500"
+		"dailyFreeGiftPackTipsDetail""可获得[强化石]*1000, [古龙币]*500,[巨龙之石]*1"
 		"dailyArchiveVipGiftPackTipsDetail""可获得[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1"
 		"plusMonthTipsDetail""以下权益将生效<font color='#fde248'>30</font>天<br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+100</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数"
 		"plusMaxTipsDetail""<font color='#fde248'>以下权益将将会永久生效</font><br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+200</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数<br><br><font color='#fde248'>额外增加以下权益</font><br>5.使用的英雄,力量,敏捷,智力<font color='#fde248'>+10%</font><br>6.结算时,英雄熟练度<font color='#fde248'>+10%</font><br>7.购买后立即获得<font color='#fde248'>SSR宠物</font><br><br>魔法飞毯小恶魔<br>(技能:本局游戏只有一个玩家时,携带者最终伤害增加10%)<br>(这个宠物不会解锁对应成就)"
@@ -2171,7 +2171,6 @@
 		"ring""戒指"
 		"all""全部"
 		
-		
 		"EquipmentLevel""装等"
 		"EquipmentSlot""部位:"
 		
@@ -2303,6 +2302,9 @@
 		"RightMenu_Lock" "锁定"
 		"RightMenu_Decompose" "分解"
 		
+		"Decompose" "批量分解"
+		"StrengthConfirmBtn""强化"
+		"StrengthOneKeyConfirmBtn""一键强化"
 		
 
 		//schinese/talent.txt
