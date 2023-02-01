@@ -164,6 +164,11 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_30_description""主职业为[咒术]<br>释放技能时，对周围释放群星坠落造成[智力x%damage_pct%%%]的伤害，该效果每%cool_down%秒只能触发一次。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_31_description""触发暴击效果时，额外对目标触发一次鲜血震荡普攻造成[敏捷x%damage_pct%%%]的鲜血伤害。该效果每%cool_down%秒只能触发一次。"
 		"DOTA_Tooltip_ability_profile_equipment_ability_32_description""如果造成伤害的目标身上有[燃烧]效果,每次对其造成伤害,触发额外一次[攻击力x%damage_pct%%%]的火焰伤害。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_1_description""目标带有[寒冷]，对其造成的伤害提高%damage_add%%%。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_2_description""目标带有[燃烧]，对其造成的伤害提高%damage_add%%%。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_3_description""目标带有[感电]，对其造成的伤害提高%damage_add%%%。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_4_description""目标带有[流血]，对其造成的伤害提高%damage_add%%%。"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_5_description""目标带有[中毒]，对其造成的伤害提高%damage_add%%%。"
 		
 
 		//schinese/abilitie_pro_equ_name.txt
@@ -199,6 +204,11 @@
 		"DOTA_Tooltip_ability_profile_equipment_ability_30""群星坠落"
 		"DOTA_Tooltip_ability_profile_equipment_ability_31""血腥噩梦"
 		"DOTA_Tooltip_ability_profile_equipment_ability_32""熔岩打击"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_1""极寒强化"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_2""烈焰强化"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_3""闪电强化"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_4""鲜血强化"
+		"DOTA_Tooltip_ability_profile_equipment_ability_33_5""毒液强化"
 		
 
 		//schinese/abilitie_pro_equ_suite_desc.txt
@@ -234,6 +244,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30_description""主职业为[泰坦]<br>非单人游戏时，每多一个玩家自身最大生命增加%health_add_pct%%%。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31_description""使用技能后暴击率增加%prop_add_pct%%%,持续%duration%秒。"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_32_description""使用Q技能后获得刃甲,对攻击的敌人造成力量x%damage_pct%%%的伤害持续5秒，这个效果每10秒触发一次。"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_33_description""使用Q技能后攻击力增幅增加%damage_pct%%%。持续%duration%秒。"
 		
 
 		//schinese/abilitie_pro_equ_suit_name.txt
@@ -269,6 +280,7 @@
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_30""巨人之魂"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_31""狂暴"
 		"DOTA_Tooltip_ability_profile_equipment_suit_ability_32""刃甲"
+		"DOTA_Tooltip_ability_profile_equipment_suit_ability_33""勇猛"
 		
 
 		//schinese/achievement.txt
@@ -1115,6 +1127,7 @@
 		"Success_Forge_Gem_Combine""合成成功"
 		"Success_Forge_Gem_OneKey_Combine""一键合成成功"
 		"Success_Forge_Gem_Decompose""分解成功"
+		"Success_Use_Decoration""成功使用"
 
 		//schinese/hero.txt
 		//英雄技能
@@ -1557,10 +1570,10 @@
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality3_description""每次使用技能后，虚空范围内的敌人受到<font color='#5bc0de'>[1]</font>次虚空锁定，此效果每秒只能触发一次。"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality4_description""虚空锁定触发时次数<font color='#5bc0de'>[+1]</font>"
 		"DOTA_Tooltip_ability_hero_base_ability_facelessVoid_quality5_description""虚空锁定触发时，有几率携带<font color='#5bc0de'>[1]</font>次带法球的普通攻击。"
-		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality2_description""骷髅射手攻击转为火焰伤害，攻击力上升至<font color='#5bc0de'>[%agility_pct%%%]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality3_description""骷髅射手最大数量上升至<font color='#5bc0de'>[6]</font>个，<font color='#5bc0de'>击杀</font>敌人后同样会出现骷髅射手。"
-		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality4_description""召唤骷髅射手时，有几率升级为<font color='#5bc0de'>骷髅精英</font>。攻击更高，攻击速度更快。"
-		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality5_description""骷髅射手最大数量上升至<font color='#5bc0de'>[10]</font>个，当攻击单个敌人达到<font color='#5bc0de'>[5]</font>次后，在其身边出现一个骷髅射手。"
+		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality2_description""骷髅射手的攻击力提升为[敏捷×%agility_pct%%%]。 骷髅射手攻击转为火焰伤害，攻击力上升至<font color='#5bc0de'>[%agility_pct%%%]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality3_description""骷髅射手的攻击力提升为[敏捷×%agility_pct%%%]。骷髅射手最大数量上升至<font color='#5bc0de'>[6]</font>个，<font color='#5bc0de'>击杀</font>敌人后同样会出现骷髅射手。"
+		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality4_description""骷髅射手的攻击力提升为[敏捷×%agility_pct%%%]。召唤骷髅射手时，有几率升级为<font color='#5bc0de'>骷髅精英</font>。攻击更高，攻击速度更快，并且共享英雄的散射能力。"
+		"DOTA_Tooltip_ability_hero_base_ability_clinkz_quality5_description""骷髅射手的攻击力提升为[敏捷×%agility_pct%%%]。精英概率提升为[100%%]。骷髅射手最大数量上升至<font color='#5bc0de'>[10]</font>个。当攻击单个敌人达到<font color='#5bc0de'>[5]</font>次后，在其身边出现一个骷髅射手。骷髅射手在命中目标时，有[%chance%%%]概率造成[英雄攻击力×%attack_pct%%%]+[敏捷×%explode_agility_pct%%%]的爆炸伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality2_description""标记伤害提升至[敏捷×%agility_pct%%%]。标记伤害变为火焰伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality3_description""标记伤害提升至[敏捷×%agility_pct%%%]。每次标记，随机会随机标记另<font color='#5bc0de'>[1]</font>个敌人。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality4_description""标记伤害提升至[敏捷×%agility_pct%%%]。每攻击6次，将会对随机目标呼叫1次轰炸，造成<font color='#5bc0de'>[敏捷x%bomb_damage%%%]</font>的火焰伤害。"
@@ -1593,10 +1606,10 @@
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality3_description""灵能陷阱爆炸后会对周围施加<font color='#5bc0de'>[%explode_attack_count%]</font>次灵能攻击，灵能攻击被视为普攻。"
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality4_description""灵能陷阱爆炸次数<font color='#5bc0de'>[+1]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_templarAssassin_quality5_description""灵能陷阱爆炸后灵能攻击的次数增加至<font color='#5bc0de'>[%explode_attack_count%]</font>次。伤害转化为<font color='#5bc0de'>[冰霜伤害]</font>"
-		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality2_description""冰风暴结束时，释放1次冰霜新星，造成<font color='#5bc0de'>[智力x%nova_pct%%%]</font>的伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality3_description""释放任意技能时，会对周围目标释放<font color='#5bc0de'>[1]</font>次冰霜新星，最多每2秒触发一次。"
-		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality4_description""冰风暴持续施加增加至<font color='#5bc0de'>[%duration%]</font>秒。"
-		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality5_description""释放冰风暴时，自己身旁也会出现暴风雪。冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>"
+		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality2_description""冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>。冰风暴结束时，释放1次冰霜新星，造成<font color='#5bc0de'>[智力x%nova_pct%%%]</font>的伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality3_description""冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>。释放任意技能时，会对周围目标释放<font color='#5bc0de'>[1]</font>次冰霜新星，最多每2秒触发一次。"
+		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality4_description""冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>。冰风暴持续施加增加至<font color='#5bc0de'>[%duration%]</font>秒。"
+		"DOTA_Tooltip_ability_hero_base_ability_crystalMaiden_quality5_description""冰风暴伤害系数提升至<font color='#5bc0de'>[智力x%intellect_pct%%%]</font>。释放冰风暴时，自己身旁也会出现暴风雪。暴风雪的伤害频率翻倍。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality2_description""死亡一指击杀目标时，技能伤害永久提升<font color='#5bc0de'>[%damage_add_per_kill_pct%%%]</font>，最多获得[%max_count%]层。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality3_description""每次释放技能时都有几率释放<font color='#5bc0de'>[1]</font>次死亡一指。"
 		"DOTA_Tooltip_ability_hero_base_ability_lion_quality4_description""死亡一指目标数量提升至<font color='#5bc0de'>[%count%]</font>个。"
@@ -1806,18 +1819,7 @@
 		"text_difficulty30""N30"
 		"text_difficulty31""N31狂暴之海"
 		"text_difficulty32""N32剧毒森林"
-		
-		"text_difficulty_desc1""easy"
-		"text_difficulty_desc2""正常"
-		"text_difficulty_desc3""有点难度"
-		"text_difficulty_desc4""太tmd难了"
-		"text_difficulty_desc5""这是人能玩的？"
-		"text_difficulty_desc6""holy shit"
-		"text_difficulty_desc7""这tm的是啥啊"
-		"text_difficulty_desc8""居然有点好玩"
-		"text_difficulty_desc9""简直停不下来"
-		"text_difficulty_desc10""这才是真正的游戏"
-		
+		"text_difficulty33""N33翡翠梦境"
 		
 		"HeroQuality1""<font color='#ffffff'></font>"
 		"HeroQuality2""<font color='#58bb84'>英雄</font>"
