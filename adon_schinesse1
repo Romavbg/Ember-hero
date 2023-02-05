@@ -916,7 +916,7 @@
 		"DOTA_Tooltip_modifier_courier_ability_15_effect_Description""召唤物伤害增加"
 		
 		"DOTA_Tooltip_modifier_courier_ability_16_effect""智慧"
-		"DOTA_Tooltip_modifier_courier_ability_16_effect_Description""召唤物伤害增加"
+		"DOTA_Tooltip_modifier_courier_ability_16_effect_Description""智力增加"
 		
 		"DOTA_Tooltip_modifier_courier_ability_17_effect""灵巧"
 		"DOTA_Tooltip_modifier_courier_ability_17_effect_Description""敏捷增加"
@@ -1435,7 +1435,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_ancientApparition_description""目标周围施加<font color='#5bc0de'>[%count%]</font>次诅咒，每秒造成<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>的伤害。诅咒层数越高。诅咒造成的伤害越高。"
 		"DOTA_Tooltip_ability_hero_base_ability_grimstroke_description""每个能量点数可以释放1个攻击力为<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>的小鬼。"
 		"DOTA_Tooltip_ability_hero_base_ability_ogreMagi_description""对<font color='#5bc0de'>[%count%]</font>个目标扔出火球/冰球，造成<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>的属性伤害，并叠加<font color='#5bc0de'>[燃烧]</font>/<font color='#5bc0de'>[寒冷]</font>效果。有几率触发最多<font color='#5bc0de'>[3x]</font>次多重效果。"
-		"DOTA_Tooltip_ability_hero_base_ability_invoker_description""每当造成<font color='#5bc0de'>[火焰]</font>伤害时，对目标释放阳炎，伤害为<font color='#5bc0de'>[智力X%strength_pct%%%]</font>的伤害。每当造成<font color='#5bc0de'>[冰霜]</font>伤害时，对目标释放超声波，伤害为<font color='#5bc0de'>[智力X%agility_pct%%%]</font>，每当造成<font color='#5bc0de'>[雷电]</font>伤害时，对目标释放雷暴伤害为<font color='#5bc0de'>[智力X%intellect_pct%%%]</font>。以上效果每<font color='#5bc0de'>[%cooldown%]</font>秒触发一次。"
+		"DOTA_Tooltip_ability_hero_base_ability_invoker_description""每当造成<font color='#5bc0de'>[火焰]</font>伤害时，对目标释放阳炎，伤害为<font color='#5bc0de'>[智力X%intellect_pct%%%]+[攻击力×100%%]</font>的伤害。每当造成<font color='#5bc0de'>[冰霜]</font>伤害时，对目标释放超声波，伤害为<font color='#5bc0de'>[智力X%intellect_pct%%%]+[攻击力×100%%]</font>，每当造成<font color='#5bc0de'>[雷电]</font>伤害时，对目标释放雷暴伤害为<font color='#5bc0de'>[智力X%intellect_pct%%%]+[攻击力×100%%]</font>。以上效果每<font color='#5bc0de'>[%cooldown%]</font>秒触发一次。"
 		
 
 		//schinese/herobaseabilityupgrade.txt
@@ -1549,7 +1549,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_lina_quality2_description""龙破斩伤害增加至<font color='#5bc0de'>[%intellect_pct%%%]</font>。龙破斩触发所需次数减少至<font color='#5bc0de'>[%maxAttackCount%]</font>次。"
 		"DOTA_Tooltip_ability_hero_base_ability_lina_quality3_description""龙破斩伤害增加至<font color='#5bc0de'>[%intellect_pct%%%]</font>。每次普攻额外概率，飞出<font color='#5bc0de'>[1]</font>个小凤凰，对敌人造成额外<font color='#5bc0de'>[智力x%phoenix_damage%%%]</font>火焰伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_lina_quality4_description""龙破斩伤害增加至<font color='#5bc0de'>[%intellect_pct%%%]</font>，火凤凰加强至<font color='#5bc0de'>[%phoenix_damage%%%]</font>。小凤凰可以造成范围火焰伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_lina_quality5_description""龙破斩伤害增加至<font color='#5bc0de'>[%intellect_pct%%%]</font>，火凤凰加强至<font color='#5bc0de'>[%phoenix_damage%%%]</font>。龙破斩触发所需次数减少至<font color='#5bc0de'>[%maxAttackCount%]</font>次。释放龙破斩时，额外飞出<font color='#5bc0de'>[6]</font>个小凤凰。"
+		"DOTA_Tooltip_ability_hero_base_ability_lina_quality5_description""龙破斩伤害增加至<font color='#5bc0de'>[%intellect_pct%%%]</font>，火凤凰加强至<font color='#5bc0de'>[%phoenix_damage%%%]</font>。龙破斩触发所需次数减少至<font color='#5bc0de'>[%maxAttackCount%]</font>次。释放龙破斩时，额外飞出<font color='#5bc0de'>[6]</font>个小凤凰。小凤凰为命中的目标叠加最多50层灼热，每层使该技能对其造成的伤害提升%increase%%%。"
 		"DOTA_Tooltip_ability_hero_base_ability_beastMaster_quality2_description""同时召唤一个雷电战鹰，攻击为<font color='#5bc0de'>[力量x%strength_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_beastMaster_quality3_description""召唤时敲响战鼓，对周围敌人造成<font color='#5bc0de'>[3]</font>次<font color='#5bc0de'>[力量x%drum_damage%%%]</font>伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_beastMaster_quality4_description""每次召唤数量增加至<font color='#5bc0de'>[%count%]</font>个。"
@@ -1577,7 +1577,7 @@
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality2_description""标记伤害提升至[敏捷×%agility_pct%%%]。标记伤害变为火焰伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality3_description""标记伤害提升至[敏捷×%agility_pct%%%]。每次标记，随机会随机标记另<font color='#5bc0de'>[1]</font>个敌人。"
 		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality4_description""标记伤害提升至[敏捷×%agility_pct%%%]。每攻击6次，将会对随机目标呼叫1次轰炸，造成<font color='#5bc0de'>[敏捷x%bomb_damage%%%]</font>的火焰伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality5_description""标记伤害提升至[敏捷x%agility_pct%%%]。攻击时有几率额外对目标和标记目标释放一次狙击，造成<font color='#5bc0de'>[敏捷x%extra_missile%%%]</font>的火焰伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_sniper_quality5_description""标记伤害提升至[敏捷x%agility_pct%%%]。攻击时有几率额外对目标和标记目标释放一次狙击，造成<font color='#5bc0de'>[敏捷x%extra_missile%%%]+[攻击力×%attack_pct%%%]</font>的火焰伤害。如果只存在一个标记目标，则狙击概率提升至100%%，伤害翻倍。"
 		"DOTA_Tooltip_ability_hero_base_ability_undying_quality2_description""变身后最大血量增加<font color='#5bc0de'>[%health_add_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_undying_quality3_description""变身时候召唤<font color='#5bc0de'>[%summon_count%]</font>个攻击为<font color='#5bc0de'>[力量x%zombie_attack_pct%%%]</font>小僵尸。"
 		"DOTA_Tooltip_ability_hero_base_ability_undying_quality4_description""每受到<font color='#5bc0de'>[%spawn_count%]</font>次攻击召唤<font color='#5bc0de'>[1]</font>个小僵尸，小僵尸最多不超过<font color='#5bc0de'>[%max_count%]</font>个。"
@@ -1590,10 +1590,10 @@
 		"DOTA_Tooltip_ability_hero_base_ability_axe_quality3_description""反击时释放冲击波造成<font color='#5bc0de'>[力量x%wave_damage%%%]+[攻击力x100%%]</font>的火焰伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_axe_quality4_description""反击风暴伤害提升至[力量×%strength_pct%%%+攻击力×100%%]。冲击波伤害提升至[力量x%wave_damage%%%]+[攻击力x100%%]。反击概率增加至<font color='#5bc0de'>[%chance%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_axe_quality5_description""反击风暴伤害提升至[力量×%strength_pct%%%+攻击力×100%%]。冲击波伤害提升至[力量x%wave_damage%%%]+[攻击力x100%%]。攻击[50%%%]概率可以触发斩杀造成<font color='#5bc0de'>[力量x%blade_damage%%%]+[攻击力x100%%]</font>的伤害，并释放一次<font color='#5bc0de'>[冲击波]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality2_description""每次释放技能额外释放1轮散射，散射造成<font color='#5bc0de'>[敏捷x%scatter_damage%%%]</font>的冰霜伤害。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality3_description""散射攻击到敌人时增加一层<font color='#5bc0de'>[寒冷]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality4_description""散射轮次<font color='#5bc0de'>[+1]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
-		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality5_description""寒冰爆炸伤害系数提升至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>，如果寒冰爆炸时目标周围没有其他敌人，则所有即将产生的伤害将会作用于同一目标，并且每次冰爆伤害翻倍。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality2_description""每次释放技能额外释放1轮散射，散射造成<font color='#5bc0de'>[敏捷x%scatter_damage%%%]+[攻击力×%attack_pct%%%]</font>的冰霜伤害。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality3_description""散射伤害提升至[敏捷x%scatter_damage%%%]+[攻击力×%attack_pct%%%]。散射攻击到敌人时增加一层<font color='#5bc0de'>[寒冷]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality4_description""散射伤害提升至[敏捷x%scatter_damage%%%]+[攻击力×%attack_pct%%%]。散射轮次<font color='#5bc0de'>[+1]</font>。冰霜爆炸弹射次数<font color='#5bc0de'>[+1]</font>。"
+		"DOTA_Tooltip_ability_hero_base_ability_drowRanger_quality5_description""散射伤害提升至[敏捷x%scatter_damage%%%]+[攻击力×%attack_pct%%%]。寒冰爆炸伤害系数提升至<font color='#5bc0de'>[敏捷x%agility_pct%%%]</font>。如果寒冰爆炸时目标周围没有其他敌人，则所有即将产生的伤害将会作用于同一目标，并且每次冰爆伤害翻倍。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality2_description""狂风之力伤害提升至[攻击力x%attact_pct%%%]。开启时候受到伤害降低<font color='#5bc0de'>[%damage_decrease_pct%%%]</font>。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality3_description""狂风之力伤害提升至[攻击力x%attact_pct%%%]。攻击<font color='#5bc0de'>[%power_shot_trigger_count%]</font>次数后，发射[强力击]造成<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>的伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_windRunner_quality4_description""狂风之力伤害提升至[攻击力x%attact_pct%%%]，强力击伤害提升为<font color='#5bc0de'>[智力x%power_shot_damage%%%]</font>。狂风之力增加<font color='#5bc0de'>[1]</font>个额外的攻击目标。"
@@ -1638,10 +1638,10 @@
 		"DOTA_Tooltip_ability_hero_base_ability_ogreMagi_quality3_description""伤害提升至[智力×%intellect_pct%%%]。多重触发几率最高变为4x。不稳定轰炸造成范围伤害。"
 		"DOTA_Tooltip_ability_hero_base_ability_ogreMagi_quality4_description""伤害提升至[智力×%intellect_pct%%%]。释放火球的同时会释放出冰球，击中时附加寒冷效果。"
 		"DOTA_Tooltip_ability_hero_base_ability_ogreMagi_quality5_description""伤害提升至[智力×%intellect_pct%%%]。释放的其他技能都有几率刷新[不稳定轰炸]。"
-		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality2_description""冷却时间降低至<font color='#5bc0de'>[%cooldown%]</font>秒。"
-		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality3_description""所有效果触发<font color='#5bc0de'>[2]</font>次"
-		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality4_description""冷却降低为<font color='#5bc0de'>[%cooldown%]</font>秒。"
-		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality5_description""当触发<font color='#5bc0de'>[1]</font>种效果后，<font color='#5bc0de'>[50%]</font>概率会随机触发另外的<font color='#5bc0de'>[1]</font>种效果。"
+		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality2_description""伤害提升至[智力×%intellect_pct%%%]+[攻击力×100%%]。冷却时间降低至<font color='#5bc0de'>[%cooldown%]</font>秒。"
+		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality3_description""伤害提升至[智力×%intellect_pct%%%]+[攻击力×100%%]。冷却时间降低至<font color='#5bc0de'>[%cooldown%]</font>秒。所有效果触发<font color='#5bc0de'>[2]</font>次。"
+		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality4_description""伤害提升至[智力×%intellect_pct%%%]+[攻击力×100%%]。冷却降低为<font color='#5bc0de'>[%cooldown%]</font>秒。所有效果触发<font color='#5bc0de'>[3]</font>次。"
+		"DOTA_Tooltip_ability_hero_base_ability_invoker_quality5_description""伤害提升至[智力×%intellect_pct%%%]+[攻击力×100%%]。当触发<font color='#5bc0de'>[1]</font>种效果后，<font color='#5bc0de'>[50%]</font>概率会随机触发另外的<font color='#5bc0de'>[1]</font>种效果。"
 		
 
 		//schinese/heroFragment.txt
