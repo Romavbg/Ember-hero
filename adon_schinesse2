@@ -1057,6 +1057,7 @@
 		"temp_boss2_difficult15""垩难神殿"
 		"temp_boss3_difficult15""垩难神殿"
 		"temp_endless""深渊回廊"
+		"temp_boss_LanternFestival""元宵节任务"
 		
 
 		//schinese/message.txt
@@ -1299,6 +1300,7 @@
 		"monster_test_attacker""测试怪物"
 		"monster_test""测试怪物"
 		"monster_sandbag""测试怪物"
+		"monster_challenge_boss_lanpang""食人魔魔法师"
 		
 
 		//schinese/monster_name_extra.txt
@@ -1741,7 +1743,6 @@
 		"diamond_6""堆积如山的深渊结晶"
 		"strengthStone""强化石宝箱"
 		"DrawCardTicketHero""抽奖卷(英雄池)"
-		"DrawCardTicketCourier""抽奖卷(宠物池)"
 		"BattleItemDefenceScroll""守护卷轴"
 		"BattleItemGoldScroll""金币卷轴"
 		"BattleItemInspireScroll""鼓舞卷轴"
@@ -1755,10 +1756,10 @@
 		"Bless8""黑暗之龙的祝福"
 		"Bless9""幻象之龙的祝福"
 		"Bless10""时空之龙的祝福"
-		"Bless11""超神器:镜面世界"
-		"Bless12""超神器:诅咒之刃"
-		"Bless13""超神器:雷霆之心"
-		"Bless14""超神器:圣言之抢"
+		"Bless11""祝福:冰晶世界"
+		"Bless12""祝福:诅咒之刃"
+		"Bless13""祝福:雷霆之心"
+		"Bless14""祝福:圣言之抢"
 		"diamond_1GiftPack""小份深渊结晶"
 		"diamond_2GiftPack""中份深渊结晶"
 		"diamond_3GiftPack""大份深渊结晶"
@@ -1771,13 +1772,33 @@
 		"happyNewYear3GiftPack""新年限定宝石礼包"
 		"happyNewYear4GiftPack""新年限定超级大礼包"
 		"breakStoneGiftPack""巨龙之石礼包"
+		"yuanxiao1GiftPack""元宵超值礼包"
+		"yuanxiao2GiftPack""元宵节补给礼包"
+		"yuanxiao3GiftPack""元宵节补给大礼包"
+		"yuanxiao4GiftPack""元宵节强化礼包"
+		"yuanxiao5GiftPack""元宵节超级大礼包"
+		"yuanxiaoduihuan1GiftPack""天使之翼"
+		"yuanxiaoduihuan2GiftPack""火焰纹章"
+		"yuanxiaoduihuan3GiftPack""暴击宝石4级"
+		"yuanxiaoduihuan4GiftPack""爆伤宝石4级"
+		"yuanxiaoduihuan5GiftPack""力量宝石4级"
+		"yuanxiaoduihuan6GiftPack""敏捷宝石4级"
+		"yuanxiaoduihuan7GiftPack""智力宝石4级"
+		"yuanxiaoduihuan8GiftPack""元素宝石4级"
+		"yuanxiaoduihuan9GiftPack""暴击宝石3级"
+		"yuanxiaoduihuan10GiftPack""爆伤宝石3级"
+		"yuanxiaoduihuan11GiftPack""力量宝石3级"
+		"yuanxiaoduihuan12GiftPack""敏捷宝石3级"
+		"yuanxiaoduihuan13GiftPack""智力宝石3级"
+		"yuanxiaoduihuan14GiftPack""元素宝石3级"
+		"GoldDrawCardTicket""金币兑换"
 		
 
 		//schinese/profile_shopping_mall_itemsDesc.txt
-		"dailyFreeGiftPackTipsDetail""可获得[强化石]*1000, [古龙币]*500,[巨龙之石]*1"
+		"dailyFreeGiftPackTipsDetail""可获得[强化石]*100, [古龙币]*500"
 		"dailyArchiveVipGiftPackTipsDetail""可获得[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1"
 		"plusMonthTipsDetail""以下权益将生效<font color='#fde248'>30</font>天<br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+100</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数"
-		"plusMaxTipsDetail""<font color='#fde248'>以下权益将将会永久生效</font><br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+200</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数<br><br><font color='#fde248'>额外增加以下权益</font><br>5.使用的英雄,力量,敏捷,智力<font color='#fde248'>+10%</font><br>6.结算时,英雄熟练度<font color='#fde248'>+10%</font><br>7.购买后立即获得<font color='#fde248'>SSR宠物</font><br><br>魔法飞毯小恶魔<br>(技能:本局游戏只有一个玩家时,携带者最终伤害增加10%)<br>(这个宠物不会解锁对应成就)"
+		"plusMaxTipsDetail""<font color='#fde248'>以下权益将将会永久生效</font><br><br>1.可选英雄<font color='#fde248'>+1</font><br>2.每个技能符文首次刷新<font color='#fde248'>不消耗</font>局内金币<br>3.<font color='#fde248'>+1</font>额外生命<br>4.<font color='#fde248'>+200</font>初始金币<br>5.<font color='#fde248'>+1</font>主动技能刷新次数<br><br><font color='#fde248'>额外增加以下权益</font><br>5.使用的英雄,力量,敏捷,智力<font color='#fde248'>+10%</font><br>6.结算时,英雄熟练度<font color='#fde248'>+10%</font><br>7.购买后立即获得<font color='#fde248'>SSR宠物</font><br>8.解锁每日<font color='#fde248'>金币兑换命运长卷</font>功能<br><br>魔法飞毯小恶魔<br>(技能:本局游戏只有一个玩家时,携带者最终伤害增加10%)<br>(这个宠物不会解锁对应成就)"
 		"archiveVipTipsDetail""<font color='#fde248'>以下权益将会永久生效</font><br><br>1.结算时地图经验<font color='#fde248'>+20%</font><br><br>2.结算时古龙币<font color='#fde248'>+20%</font><br><br>3.结算时存档装备数<font color='#fde248'>x2</font><br><br>4.可领取<font color='#fde248'>荒野猎人每日礼包</font><br>(包含:[深渊结晶]*10,[1级金色琉璃]*1,[抽奖卷]*1)<br><br>5.分解装备时,强化石<font color='#fde248'>+20%</font><br><br>6.传承装备方案页签<font color='#fde248'>+3</font><br><br>7.N32层后额外增加掉落宝石几率"
 		"advanceBpTipsDetail""购买可以解锁高级通行证"
 		"heroExpBookGiftPackTipsDetail""可获得英雄经验书*5,使用直接解锁为常用英雄"
@@ -1799,11 +1820,11 @@
 		"Bless3TipsDetail""拥有后永久增加以下属性<br><br>初始暴击率+10%<br>初始暴击伤害+25%"
 		"Bless4TipsDetail""拥有后永久增加以下属性<br><br>元素伤害+25%"
 		"Bless5TipsDetail""拥有后永久增加以下属性<br><br>智力+10%<br>魔法恢复+10%"
-		"Bless6TipsDetail""拥有后永久增加以下属性<br><br>敏捷+10%<br>移动速度+20%"
+		"Bless6TipsDetail""拥有后永久增加以下属性<br><br>敏捷+10%<br>移动速度+10%"
 		"Bless8TipsDetail""拥有后永久增加以下属性<br><br>物理伤害 +25%"
 		"Bless9TipsDetail""拥有后永久增加以下属性<br><br>召唤物攻击力+25%"
 		"Bless10TipsDetail""拥有后永久增加以下属性<br><br>最大魔法上限 +10%"
-		"Bless11TipsDetail""移动速度+15%"
+		"Bless11TipsDetail""拥有后永久增加以下属性<br><br>移动速度+20%"
 		"Bless12TipsDetail""拥有后永久增加以下属性<br><br>最大生命+15%<br>最大生命恢复+1%"
 		"Bless13TipsDetail""拥有后永久增加以下属性<br><br>最大生命+15%<br>最大生命恢复+1%"
 		"Bless14TipsDetail""拥有后永久增加以下属性<br><br>最大生命+15%<br>最大生命恢复+1%"
@@ -1815,11 +1836,31 @@
 		"diamond_6GiftPackTipsDetail""深渊结晶*8100"
 		"HeroExpBookSingleTipsDetail""英雄经验书*1"
 		"strengthStoneGiftPackTipsDetail""150000古龙币兑换100000强化石"
-		"happyNewYear1GiftPackTipsDetail""新年限定礼包,限购1次内含:<br>100000强化石<br>10个命运长卷"
-		"happyNewYear2GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>15个命运长卷"
-		"happyNewYear3GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>500000强化石<br>20个命运长卷<br>2级宝石,每种各一颗"
-		"happyNewYear4GiftPackTipsDetail""新年限定礼包,限购10次内含:<br>1000000强化石<br>500000金币<br>100永恒水晶<br>30个命运长卷<br>3级宝石,每种各一颗"
+		"happyNewYear1GiftPackTipsDetail""内含:<br>100000强化石<br>10个命运长卷"
+		"happyNewYear2GiftPackTipsDetail""内含:<br>500000强化石<br>15个命运长卷"
+		"happyNewYear3GiftPackTipsDetail""内含:<br>500000强化石<br>20个命运长卷<br>2级宝石,每种各一颗"
+		"happyNewYear4GiftPackTipsDetail""内含:<br>1000000强化石<br>500000金币<br>100永恒水晶<br>30个命运长卷<br>3级宝石,每种各一颗"
 		"breakStoneGiftPackTipsDetail""包含5个巨龙之石,用于装备突破当前装等"
+		"yuanxiao1GiftPackTipsDetail""内含:<br>150000强化石<br>10个命运长卷"
+		"yuanxiao2GiftPackTipsDetail""内含:<br>400000强化石<br>20个命运长卷"
+		"yuanxiao3GiftPackTipsDetail""内含:<br>2级宝石每种各一颗<br>30个命运长卷<br>50个永恒水晶<br>25个元宵"
+		"yuanxiao4GiftPackTipsDetail""内含:<br>3级宝石每种各一颗<br>70个命运长卷<br>100个永恒水晶<br>50个元宵"
+		"yuanxiao5GiftPackTipsDetail""内含:<br>3级宝石每种各一颗<br>150个命运长卷<br>100个元宵"
+		"yuanxiaoduihuan1GiftPackTipsDetail""立即获得:天堂之翼<br>+15%暴击<br>+50%暴击伤害<br>(无论是否装备,只要持有拥有此属性)"
+		"yuanxiaoduihuan2GiftPackTipsDetail""立即获得:火焰纹章<br>+10%移动速度<br>敏捷,智力,力量各加30%<br>(无论是否装备,只要持有拥有此属性)"
+		"yuanxiaoduihuan3GiftPackTipsDetail""立即获得1颗暴击宝石4级"
+		"yuanxiaoduihuan4GiftPackTipsDetail""立即获得1颗爆伤宝石4级"
+		"yuanxiaoduihuan5GiftPackTipsDetail""立即获得1颗力量宝石4级"
+		"yuanxiaoduihuan6GiftPackTipsDetail""立即获得1颗敏捷宝石4级"
+		"yuanxiaoduihuan7GiftPackTipsDetail""立即获得1颗智力宝石4级"
+		"yuanxiaoduihuan8GiftPackTipsDetail""立即获得1颗元素宝石4级"
+		"yuanxiaoduihuan9GiftPackTipsDetail""立即获得1颗暴击宝石3级"
+		"yuanxiaoduihuan10GiftPackTipsDetail""立即获得1颗爆伤宝石3级"
+		"yuanxiaoduihuan11GiftPackTipsDetail""立即获得1颗力量宝石3级"
+		"yuanxiaoduihuan12GiftPackTipsDetail""立即获得1颗敏捷宝石3级"
+		"yuanxiaoduihuan13GiftPackTipsDetail""立即获得1颗力量宝石3级"
+		"yuanxiaoduihuan14GiftPackTipsDetail""立即获得1颗元素宝石3级"
+		"GoldDrawCardTicketTipsDetail""100000金币兑换1张抽奖卷,每日限定5张"
 		
 
 		//schinese/profile_suit.txt
@@ -2018,6 +2059,11 @@
 		"reset_popup_title" "消耗金币重置巅峰等级？"
 		
 		"message_success_modify_peak_level" "成功"
+		
+		"filemap_jump_to" "快速跳转："
+		"filemap_next_to_get" "尚未领取"
+		"filemap_current_level" "当前等级"
+		
 
 		//schinese/systemItem.txt
 		"strengthStone""强化石"
@@ -2104,17 +2150,20 @@
 		"item_ring_1""极寒纹章"
 		"item_ring_1TipsDetail""冰霜伤害+45%<br><br>无论是否装备,只要持有拥有此属性."
 		
-		"item_ring_2""毒液纹章"
-		"item_ring_2TipsDetail""毒液伤害+45%<br><br>无论是否装备,只要持有拥有此属性."
+		"item_ring_2""火焰纹章"
+		"item_ring_2TipsDetail""移动速度+15%<br>智力,敏捷,力量+30%<br>无论是否装备,只要持有拥有此属性."
 		
 		"item_tail_1""拖尾1"
 		"item_tail_1TipsDetail""增加属性"
 		
 		"item_wing_1""灰烬之翼"
-		"item_wing_1TipsDetail""暴击率+15%<br><br>无论是否装备,只要持有拥有此属性."
+		"item_wing_1TipsDetail""暴击率+15%<br><br>(无论是否装备,只要持有拥有此属性.)"
 		
 		"item_wing_2""天堂之翼"
-		"item_wing_2TipsDetail""暴击率+25%<br><br>无论是否装备,只要持有拥有此属性."
+		"item_wing_2TipsDetail""暴击率+15%<br>暴击伤害+50%<br><br>(无论是否装备,只要持有拥有此属性.)"
+		
+		"activeMoney1""元宵"
+		"activeMoney1TipsDetail""元宵BOSS掉落,或者元宵礼包直接购买.用于在商城中兑换元宵节礼包<br><br>(N30以上进入活动关卡Boss可以掉落,难度越高掉落越多)"
 		
 
 		//schinese/systemShoppingMall.txt
@@ -2122,12 +2171,16 @@
 		"BtnHeadTabResource""资源"
 		"BtnHeadTabProperty""道具"
 		"BtnHeadTabBless""祝福"
+		"BtnHeadTabActive""活动"
 		"NoArchiveVip" "需要荒野猎人凭证"
+		"NoMaxVip""需要Plus终身"
 		"FirstDoubleLabel""充值双倍"
 		"LimitLabel""限购:"
 		"DOTA_Tooltip_modifier_hero_plusmax"	"终身Plus加成"
 		"DOTA_Tooltip_modifier_hero_plusmax_description"	"智力+10%%,力量+10%%,敏捷+10%%"
-		
+		"NotEnoughItem""元宵不足,N30以上结束参与挑战获得,或购买礼包获得"
+		"NotEnoughItemDetial""元宵不足,可在仓库中查看数量.N30以上结束参与挑战获得,或购买礼包获得"
+		"soldout""售罄"
 
 		//schinese/systemStoreHouse.txt
 		"Warning"   "是否<font color='#c3e88d'>[献祭]</font>该宠物？这将<font color='#fd5102'>[摧毁]</font>它!并获得该宠物的<font color='#c3e88d'>[技能卷轴]</font>！"
